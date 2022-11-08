@@ -101,12 +101,15 @@ function agregarMetodo() {
   }
 
 }
-  
+  // Persona.prototype.datos = function () {
+  //    const saludo = '${this.nombre}, ${this.edad} años';
+  // return saludo;
+  // }
 
 // No modificar nada debajo de esta línea
 // --------------------------------
 
-module.exports = {
+module.exports = { 
   crearUsuario,
   agregarMetodoPrototype,
   agregarStringInvertida,

@@ -52,6 +52,11 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
+  //var nuevoArray = [];
+  //for (i = 0 ; i < array.length ; i ++){
+  //  nuevoArray.push(cb(array[i]));
+  //  nuevoArray[i] = cb(array[i]);
+  //}
   var nuevoArray = array.map(function(elemento){
     return cb(elemento);
   });
